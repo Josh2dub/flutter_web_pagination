@@ -10,7 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_custom_text_input_formatter: ^0.0.4
+  intl: ^0.19.0
+  flutter_custom_text_input_formatter:
+    git:
+      url: https://github.com/Josh2dub/flutter_custom_text_input_formatter.git
+      ref: 0bb0377ed0ac270696694ba844da72e051c54592
+
 
 dev_dependencies:
   flutter_test:
